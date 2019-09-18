@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #2A4072;
+    padding: 5em;
+}
+ul{
+    list-style: none;
+}
+.center{
+    width: 40%;
+    margin: auto;
+    background-color: white;
+}
+.form-header{
+    text-align: center;
+}
+.form-header h1{
+    background-color: #17233B;
+    padding: 0.5em; 
+    font-size: 1.5em;
+}
+
+.form-body{
+    background-color: #1C2B4A;
+    padding: 1.3em;
+    padding-bottom: 1.5rem;
+}
+
+.inputs li{
+    background-color: #12192C;
+    margin: 1em;
+}
+.inputs li input{
+    width: 90%;
+    padding: 1em;
+    border: none;
+    background-color: #12192C;
+}
+
+.name,.pass{
+    color: lightgray;
+}
+
+#subtn{
+    border-bottom: 2px inset #009933;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #00CD68;
+    font-size: 1.2em;
+    padding: 0.8em;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+#subtn:hover{
+    background-color: #009933;
+}
+i{
+    
+    margin-left:2%; 
+}
+
+.mdi-account,.mdi-lock{
+    color: #00CD68;
+    font-size: 1.4rem;
+}
+
+.social{
+    padding: 1rem; 
+}
+.container-r-f{
+    padding: 1em 1em;
+    
+  }
+  
+  .remember,.forget{
+    display:inline-block;
+    width:49%;
+    color:white;
+  }
+  .forget{
+    text-align:right;
+  }
+  .remember a,.forget a{
+      color: white;
+      font-size: 1rem;
+      font-weight: 300;
+      margin-left:0.1rem;
+       text-decoration: none;
+  }
+
+  .fb,.tw{
+    display:inline-block;
+    width:40%;
+    color:white;
+    padding: 0.5em 0em;
+    transition: all 0.3s linear;
+    text-align: center;
+  }
+  .empty{
+      width: 17%;
+      display: inline-block;
+     
+      text-align: center;
+  }
+  .fb{
+      background-color: #3B5A9B;
+  }
+  .fb:hover{
+      background-color: #2A4072;
+  }
+
+  .tw:hover{
+      background-color: rgb(24, 121, 153);
+  }
+  .tw{
+   
+    background-color: #2DA8D2;
+  }
+
+  .fb a,.tw a{
+      text-decoration: none;
+      color: white;
+  }
+
+  .form-footer{
+      background-color: #17233B;
+      
+  }
+
+  .new-account,.sign-up{
+      display: inline-block;
+      width: 49%;
+      padding: 1rem;
+  }
+  .sign-up{
+      text-align: right;
+  }
+
+  .new-account a,.sign-up a{
+      color: white; 
+      text-decoration: none;
+  }
+
+  .sign-up a{
+      padding: 0.6rem;
+      background-color: #00CD68;
+      border-radius:2px; 
+  }
