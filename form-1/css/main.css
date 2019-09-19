@@ -85,6 +85,11 @@ i{
     padding: 1em 1em;
     
   }
+  .container-r-f a{
+      line-height: 2rem;
+      font-size: 1.1rem;
+      margin-left:0.5rem; 
+  }
   
   .remember,.forget{
     display:inline-block;
@@ -100,6 +105,9 @@ i{
       font-weight: 300;
       margin-left:0.1rem;
        text-decoration: none;
+  }
+  .remember a{
+      margin-left: 0.5rem;
   }
 
   .fb,.tw{
