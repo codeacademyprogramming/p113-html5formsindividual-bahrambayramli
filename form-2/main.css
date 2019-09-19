@@ -1,7 +1,4 @@
-@font-face {
-    font-family: myFont;
-    src: url(/fonts/Montserrat-Light.ttf);
-  }
+
 *{
     padding: 0;
     margin: 0;
@@ -11,6 +8,11 @@
 *:focus{
     border: none;
 }
+@font-face {
+    font-family: myFont;
+    src: url(./font/Raleway-Medium.ttf);
+  }
+
 body{
     background: rgba(218,255,117,1);
     background: -moz-linear-gradient(45deg, rgba(218,255,117,1) 17%, rgba(212,253,115,1) 23%, rgba(202,250,110,1) 34%, rgba(161,235,92,1) 79%);
@@ -27,26 +29,127 @@ ul{
     margin: 0;
     padding: 0;
 }
+/* HEADER CSS STYLES */
 header,footer{
     text-align: center;
     font-family: myFont;
+    margin: 1em;
+   
 }
-.container{
-    width: 70%;
-    margin: auto;
-    border: 3px;
+header h1{
+    font-weight: 600;
+    color: #27ae60;
+    padding: 0.3rem;
 }
-.mdi{
+header h4{
+      color: #27ae60;
+      padding: 0.3rem;
+}
+header button{
+    background-color: #27ae60;
+    padding: 1rem 6.5rem;
     font-size: 1.2rem;
-    position: absolute;
     color: lightgray;
+    border: none;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    border-bottom:3px solid; 
+    border-color:#136938 ;
+    transition: all 0.3s linear;
+    cursor: pointer;
     
+}
+header button:hover{
+    background-color: #136938;
+    color: #ffffff;
+}
+/* END HEADER CSS STYLES */
+
+/* Container css styles */
+.container{
+    width: 60%;
+    margin: auto;
+    border-radius: 3px;
+    background-color:#ffffff;
+    padding: 1.2em;
+}
+
+.left-side,.main-side{
+    width: 45%;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.left-side h2,p,.main-side h2,p{
+    font-family: myfont;
+    color: #27ae60;
+    padding: 0.8rem;
+}
+.left-side h2,.main-side h2{
+    border-bottom:1px solid lightgray; 
+}
+.main-side{
+    vertical-align: top;
+}
+
+.left-side{
+   
 }
 .input-element{
     position: relative;
-    width: 50%;
+    margin-top:1rem; 
+   
+}
+.mdi{
+    position: absolute;
+    font-size:2rem; 
+    border:0.1px solid lightgray;
+    
+
+    margin-top:0; 
+    padding: 0rem 0.5rem;
+    background-color: #F2F5F2
 }
 .input{
-    padding: 0.3rem 0.3rem;
-    width:100%;
+    padding: 0.6rem;
+    width: 90%;
+    border: 1px solid lightgrey;
+    padding-left: 4rem;
 }
+
+/* end container css styles */
+
+/* LEFT SIDE FOOT CSS CTYLES */
+.foot{
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+}
+
+.foot li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.foot li span{
+    margin-left:.5rem;
+    font-size: 1.1rem; 
+    color: gray;
+}
+
+.foot button{
+    margin-right:1rem;
+    border: none;
+    color: lightgray; 
+    padding: 0.7rem 2.2rem;
+    border: 4px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    border-bottom:3px solid #136938; 
+    background-color: #27ae60;
+}
+.foot button:hover{
+    color:#ffffff; 
+    background-color: #136938;
+}
+
+/* END LEFT SIDE FOOT CSS STYLES */
+
