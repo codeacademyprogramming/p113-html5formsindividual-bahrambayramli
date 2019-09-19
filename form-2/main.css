@@ -1,10 +1,52 @@
-body{
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/Montserrat-Light.ttf);
+  }
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
+*:focus{
+    border: none;
+}
+body{
+    background: rgba(218,255,117,1);
+    background: -moz-linear-gradient(45deg, rgba(218,255,117,1) 17%, rgba(212,253,115,1) 23%, rgba(202,250,110,1) 34%, rgba(161,235,92,1) 79%);
+    background: -webkit-gradient(left bottom, right top, color-stop(17%, rgba(218,255,117,1)), color-stop(23%, rgba(212,253,115,1)), color-stop(34%, rgba(202,250,110,1)), color-stop(79%, rgba(161,235,92,1)));
+    background: -webkit-linear-gradient(45deg, rgba(218,255,117,1) 17%, rgba(212,253,115,1) 23%, rgba(202,250,110,1) 34%, rgba(161,235,92,1) 79%);
+    background: -o-linear-gradient(45deg, rgba(218,255,117,1) 17%, rgba(212,253,115,1) 23%, rgba(202,250,110,1) 34%, rgba(161,235,92,1) 79%);
+    background: -ms-linear-gradient(45deg, rgba(218,255,117,1) 17%, rgba(212,253,115,1) 23%, rgba(202,250,110,1) 34%, rgba(161,235,92,1) 79%);
+    background: linear-gradient(45deg, rgba(218,255,117,1) 17%, rgba(212,253,115,1) 23%, rgba(202,250,110,1) 34%, rgba(161,235,92,1) 79%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daff75', endColorstr='#a1eb5c', GradientType=1 );
+}
+
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+header,footer{
+    text-align: center;
+    font-family: myFont;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    border: 3px;
+}
+.mdi{
+    font-size: 1.2rem;
+    position: absolute;
+    color: lightgray;
+    
+}
+.input-element{
+    position: relative;
+    width: 50%;
+}
+.input{
+    padding: 0.3rem 0.3rem;
+    width:100%;
 }
