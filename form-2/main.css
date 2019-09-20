@@ -8,6 +8,7 @@
 *:focus{
     border: none;
 }
+span{font-family: myfont;}
 @font-face {
     font-family: myFont;
     src: url(./font/Raleway-Medium.ttf);
@@ -225,5 +226,32 @@ header button:hover{
 hr{
     margin: 1rem 0rem; 
 }
+
+/* END INSERT YOUR INFORMATION CSS STYLES */
+
+.main-foot{
+    font-family: myfont;
+}
+
+.main-foot a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#136938; padding-left: 1rem;
+}
+
+.footer{
+    padding: 1rem;
+
+}
+
+.footer li{
+    display: inline;
+    padding: 1rem;;
+}
+.footer li a{
+    text-decoration: none;
+    color: lightslategray;
+}
+
 
 /* END MAIN SIDE CSS STYLES */
