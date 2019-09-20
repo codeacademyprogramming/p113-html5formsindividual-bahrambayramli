@@ -193,6 +193,37 @@ header button:hover{
 
 /* INSERT YOUR INFORMATION CSS STYLES */
 
+.inline{
+    display: inline-block;
+    width: 49%;
+}
 
+.inline .input{
+    width: 100%;
+}
+
+#btn{
+    background-color: #27ae60;
+    border: none;
+    color: lightcyan;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+#btn:hover{
+    background-color: #136938;
+    color: #ffffff;
+}
+.left span{
+    font-family: myfont;
+    padding-left: 0.7rem;
+}
+.rigth{
+    text-align: right;
+}
+
+hr{
+    margin: 1rem 0rem; 
+}
 
 /* END MAIN SIDE CSS STYLES */
