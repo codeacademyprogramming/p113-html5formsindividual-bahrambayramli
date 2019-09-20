@@ -92,9 +92,7 @@ header button:hover{
     vertical-align: top;
 }
 
-.left-side{
-   
-}
+
 .input-element{
     position: relative;
     margin-top:1rem; 
@@ -102,7 +100,7 @@ header button:hover{
 }
 .mdi{
     position: absolute;
-    font-size:2rem; 
+    font-size:1.8rem; 
     border:0.1px solid lightgray;
     
 
@@ -166,8 +164,11 @@ header button:hover{
     font-family: myfont;
     color: #ffffff;
     border-radius:3px; 
-    padding: 0.1rem 0.1rem;
-    
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+  
     
 }
 .social a:first-child{
@@ -176,16 +177,22 @@ header button:hover{
 }
 .social a:last-child{
     background-color: #3498db;
-    text-align: left;
+   
 }
 
 .mdi-twitter-box,.mdi-facebook-box{
     position: absolute;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     background: none;
     border: none;
-    position: static;
-    line-height: 20px;
+    left: 0;
+    top:2px;
+  
 }
+
+
+/* INSERT YOUR INFORMATION CSS STYLES */
+
+
 
 /* END MAIN SIDE CSS STYLES */
