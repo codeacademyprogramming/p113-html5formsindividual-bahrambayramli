@@ -153,3 +153,39 @@ header button:hover{
 
 /* END LEFT SIDE FOOT CSS STYLES */
 
+/* MAIN SIDE CSS STYLES */
+
+.social{
+    padding: 0rem;
+}
+.social a{
+    display: inline-block;
+    width: 49%;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: myfont;
+    color: #ffffff;
+    border-radius:3px; 
+    padding: 0.1rem 0.1rem;
+    
+    
+}
+.social a:first-child{
+    background-color: #2980b9;
+    
+}
+.social a:last-child{
+    background-color: #3498db;
+    text-align: left;
+}
+
+.mdi-twitter-box,.mdi-facebook-box{
+    position: absolute;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    position: static;
+    line-height: 20px;
+}
+
+/* END MAIN SIDE CSS STYLES */
